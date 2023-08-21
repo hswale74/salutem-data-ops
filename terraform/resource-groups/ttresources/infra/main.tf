@@ -1,5 +1,5 @@
 module "dev-sql-server-managed-instance" {
-  source = "../../../../modules/sql-server-managed-instance"
+  source = "../../../modules/sql-server-managed-instance"
 
   environment                 = var.environment
   vcores                      = var.vcores
