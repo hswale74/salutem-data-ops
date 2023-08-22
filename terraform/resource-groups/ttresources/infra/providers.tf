@@ -1,6 +1,9 @@
 terraform {
   required_version = ">= 1.0"
 
+  backend "local" {
+  }
+
   required_providers {
     azurerm = {
       source  = "hashicorp/azurerm"
@@ -14,5 +17,7 @@ terraform {
 }
 
 provider "azurerm" {
+  skip_provider_registration = true
   features {}
 }
+
