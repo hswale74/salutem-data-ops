@@ -1,0 +1,1 @@
+ Create procedure USP_ImportMember ( @importTable MemberImportTableType readonly ) AS BEGIN 	--truncate table Salutem_Temp.dbo.Member_Import; 	INSERT INTO Salutem_Temp.dbo.Member_Import select * from @importTable 	SELECT @@ROWCOUNT END

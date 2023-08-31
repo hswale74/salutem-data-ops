@@ -1,0 +1,102 @@
+create procedure dbo.usp_gettrnmentalstatusexam
+    (@AssessmentID int, @PatientActivityID int = 0)
+as begin
+    if @PatientActivityID = 0
+        begin
+            select
+                mse.id,
+                mse.appearance,
+                mse.appearancecomment,
+                mse.buildstature,
+                mse.buildstaturecomment,
+                mse.posture,
+                mse.posturecomment,
+                mse.eyecontact,
+                mse.eyecontactcomment,
+                mse.activity,
+                mse.activitycomment,
+                mse.attitudetowardexaminer,
+                mse.attitudetowardexaminercomment,
+                mse.attitudetowardparentguardian,
+                mse.attitudetowardparentguardiancomment,
+                mse.separationchildrenadolescentonly,
+                mse.separationchildrenadolescentonlycomment,
+                mse.mood,
+                mse.moodcomment,
+                mse.affect,
+                mse.affectcomment,
+                mse.speech,
+                mse.speechcomment,
+                mse.thoughtprocess,
+                mse.thoughtprocesscomment,
+                mse.perception,
+                mse.perceptioncomment,
+                mse.hallucinations,
+                mse.hallucinationscomment,
+                mse.thoughtcontent,
+                mse.thoughtcontentcomment,
+                mse.delusions,
+                mse.delusionscomment,
+                mse.cognition,
+                mse.cognitioncomment,
+                mse.intelligenceestimate,
+                mse.intelligenceestimatecomment,
+                mse.insight,
+                mse.insightcomment,
+                mse.judgement,
+                mse.judgementcomment,
+                mse.elaborationonpositivementalstatusfindings
+            from dbo.trnmentalstatusexam as mse
+            where mse.assessmentid = @AssessmentID
+        end
+    else
+        begin
+            select
+                mse.id,
+                mse.appearance,
+                mse.appearancecomment,
+                mse.buildstature,
+                mse.buildstaturecomment,
+                mse.posture,
+                mse.posturecomment,
+                mse.eyecontact,
+                mse.eyecontactcomment,
+                mse.activity,
+                mse.activitycomment,
+                mse.attitudetowardexaminer,
+                mse.attitudetowardexaminercomment,
+                mse.attitudetowardparentguardian,
+                mse.attitudetowardparentguardiancomment,
+                mse.separationchildrenadolescentonly,
+                mse.separationchildrenadolescentonlycomment,
+                mse.mood,
+                mse.moodcomment,
+                mse.affect,
+                mse.affectcomment,
+                mse.speech,
+                mse.speechcomment,
+                mse.thoughtprocess,
+                mse.thoughtprocesscomment,
+                mse.perception,
+                mse.perceptioncomment,
+                mse.hallucinations,
+                mse.hallucinationscomment,
+                mse.thoughtcontent,
+                mse.thoughtcontentcomment,
+                mse.delusions,
+                mse.delusionscomment,
+                mse.cognition,
+                mse.cognitioncomment,
+                mse.intelligenceestimate,
+                mse.intelligenceestimatecomment,
+                mse.insight,
+                mse.insightcomment,
+                mse.judgement,
+                mse.judgementcomment,
+                mse.elaborationonpositivementalstatusfindings
+            from dbo.trnmentalstatusexamlog as mse
+            where
+                mse.assessmentid = @AssessmentID
+                and mse.patientactivityid = @PatientActivityID
+        end
+end

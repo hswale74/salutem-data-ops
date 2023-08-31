@@ -1,0 +1,37 @@
+--EXEC USP_GetExistingImportedMemberList 
+Create Procedure USP_GETEXISTINGIMPORTEDMEMBERLIST As Begin
+    Select
+        MP.MEMBER_MBI,
+        MP.MEMBER_LAST_NAME,
+        MP.MEMBER_FIRST_NAME,
+        MP.MEMBER_GENDER,
+        MP.MEMBER_DATE_OF_BIRTH,
+        MP.MEMBER_MIDDLE_INITIAL,
+        MP.MEMBER_ADDRESS1,
+        MP.MEMBER_ADDRESS2,
+        MP.MEMBER_CITY,
+        MP.MEMBER_STATE,
+        MP.MEMBER_ZIP_CODE,
+        MP.MEMBER_PHONE_NUMBER,
+        MP.MEMBER_SECONDARY_PHONE_NUMBER,
+        MP.MEMBER_PRIMARY_LANGUAGE,
+        MP.LIS_INDICATOR,
+        MP.DISABLED_FLAG,
+        MP.PLAN_EFFECTIVE_DATE,
+        MP.TERM_DATE_FROM_PLAN,
+        MP.CMR_FLAG,
+        MP.CMS_CONTRACT_NUMBER,
+        MP.CMS_PBP_NUMBER,
+        MP.LTC_INDICATOR,
+        MP.REASON_FOR_TERMINATION,
+        MP.PCP_FIRST_NAME,
+        MP.PCP_LAST_NAME,
+        MP.PCP_PHONE,
+        MP.CLIENT_DEF_3,
+        Round((Convert(float, MP.MAD_PDC_2021) * 100), 2) As MAD_PDC_2021,
+        Round((Convert(float, MP.MAH_PDC_2021) * 100), 2) As MAH_PDC_2021,
+        Round((Convert(float, MP.MAC_PDC_2021) * 100), 2) As MAC_PDC_2021
+    From SALUTEM_TEMP.DBO.MEMBER_IMPORT As MP
+    Inner Join MST_PATIENT As P On MP.MEMBER_MBI = P.PATIENT_MRN
+    Where P.PATIENT_MRN Is Not Null And P.PATIENT_ID Is Not Null
+End

@@ -1,0 +1,1 @@
+ Create procedure USP_Get_UHCNDC_MedList AS  BEGIN 	-- We need unique NDC from Trn_UHCMedNDC_List so we are taking distinct NDC. 	SELECT distinct NDC.NDC,NDC.Med_ID,NDC.Strength_ID  	FROM TRN_UHCMedNDC_List UHC INNER JOIN Mst_MedNDC NDC ON UHC.NDC= NDC.NDC END --EXEC USP_Get_UHCNDC_MedList
