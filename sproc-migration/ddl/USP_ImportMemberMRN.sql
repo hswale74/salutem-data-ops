@@ -1,0 +1,1 @@
+ Create procedure USP_ImportMemberMRN ( @importTable MemberMRNTableType readonly ) AS BEGIN 	--truncate table Salutem_Temp.dbo.Member_Import; 	INSERT INTO Salutem_Temp.dbo.MemberMRN (MRN,PatientName,FIN) select MRN, PatientName, RTRIM(LTRIM(FIN)) from @importTable 	SELECT @@ROWCOUNT END

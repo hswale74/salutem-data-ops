@@ -1,0 +1,16 @@
+create procedure USP_GET_ALL_TRN_BOOKAPPOINTMENT as begin
+    select
+        TRN.APPOINTMENTID,
+        TRN.DESCRIPTION,
+        TRN.STARTDATE,
+        TRN.ENDDATE,
+        TRN.STARTTIME,
+        TRN.ENDTIME,
+        TRN.RESOURCEID,
+        TRN.PATIENT_ID,
+        TRN.APPOINTMENTTYPE,
+        TRN.LOCATIONID,
+        TRN.SERVICETYPE,
+        TRN.REPEATTYPEID
+    from TRN_BOOKAPPOINTMENT as TRN
+end
