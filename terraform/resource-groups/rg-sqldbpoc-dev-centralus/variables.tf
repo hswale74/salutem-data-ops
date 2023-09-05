@@ -4,6 +4,12 @@ variable "location" {
   default     = "centralus"
 }
 
+variable "georep_location" {
+    type = string
+    description = "A location in which to geo replicate"
+    default = "eastus"
+}
+
 variable "environment" {
   type        = string
   description = "The development environment - one of dev, test, uat, prod"
