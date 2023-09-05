@@ -1,0 +1,8 @@
+Following resources are marked to be skipped:
+
+- /subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/securityAlertPolicies/Default
+- /subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.Web/sites/airflow-qe232qydwkol4/basicPublishingCredentialsPolicies/ftp
+- /subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.Web/sites/airflow-qe232qydwkol4/basicPublishingCredentialsPolicies/scm
+- /subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.Web/sites/airflow-qe232qydwkol4/config/web
+- /subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.Web/sites/airflow-qe232qydwkol4/privateEndpointConnections/pe-airflowpoc-eastus-yankee-988e-ddec35b3-3009-44ac-8bfb-44d0ca59c8fa
+- /subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.Web/sites/airflow-qe232qydwkol4/snapshots/2023-08-31T21_20_34_8860938

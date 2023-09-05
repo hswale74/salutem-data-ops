@@ -1,0 +1,872 @@
+{
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee",
+		"resource_type": "azurerm_resource_group",
+		"resource_name": "res-0"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver",
+		"resource_type": "azurerm_postgresql_server",
+		"resource_name": "res-1"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/array_nulls": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/array_nulls",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-2"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/autovacuum": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/autovacuum",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-3"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/autovacuum_analyze_scale_factor": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/autovacuum_analyze_scale_factor",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-4"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/autovacuum_analyze_threshold": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/autovacuum_analyze_threshold",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-5"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/autovacuum_freeze_max_age": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/autovacuum_freeze_max_age",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-6"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/autovacuum_max_workers": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/autovacuum_max_workers",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-7"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/autovacuum_multixact_freeze_max_age": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/autovacuum_multixact_freeze_max_age",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-8"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/autovacuum_naptime": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/autovacuum_naptime",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-9"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/autovacuum_vacuum_cost_delay": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/autovacuum_vacuum_cost_delay",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-10"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/autovacuum_vacuum_cost_limit": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/autovacuum_vacuum_cost_limit",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-11"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/autovacuum_vacuum_scale_factor": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/autovacuum_vacuum_scale_factor",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-12"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/autovacuum_vacuum_threshold": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/autovacuum_vacuum_threshold",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-13"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/autovacuum_work_mem": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/autovacuum_work_mem",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-14"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/azure.replication_support": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/azure.replication_support",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-15"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/backend_flush_after": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/backend_flush_after",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-16"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/backslash_quote": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/backslash_quote",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-17"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/bgwriter_delay": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/bgwriter_delay",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-18"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/bgwriter_flush_after": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/bgwriter_flush_after",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-19"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/bgwriter_lru_maxpages": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/bgwriter_lru_maxpages",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-20"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/bgwriter_lru_multiplier": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/bgwriter_lru_multiplier",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-21"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/bytea_output": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/bytea_output",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-22"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/check_function_bodies": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/check_function_bodies",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-23"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/checkpoint_completion_target": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/checkpoint_completion_target",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-24"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/checkpoint_warning": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/checkpoint_warning",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-25"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/client_encoding": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/client_encoding",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-26"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/client_min_messages": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/client_min_messages",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-27"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/commit_delay": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/commit_delay",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-28"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/commit_siblings": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/commit_siblings",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-29"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/connection_throttling": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/connection_throttling",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-30"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/constraint_exclusion": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/constraint_exclusion",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-31"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/cpu_index_tuple_cost": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/cpu_index_tuple_cost",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-32"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/cpu_operator_cost": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/cpu_operator_cost",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-33"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/cpu_tuple_cost": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/cpu_tuple_cost",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-34"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/cursor_tuple_fraction": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/cursor_tuple_fraction",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-35"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/datestyle": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/datestyle",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-36"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/deadlock_timeout": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/deadlock_timeout",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-37"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/debug_print_plan": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/debug_print_plan",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-38"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/debug_print_rewritten": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/debug_print_rewritten",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-39"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/default_statistics_target": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/default_statistics_target",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-40"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/default_text_search_config": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/default_text_search_config",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-41"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/default_transaction_deferrable": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/default_transaction_deferrable",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-42"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/default_transaction_isolation": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/default_transaction_isolation",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-43"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/default_transaction_read_only": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/default_transaction_read_only",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-44"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/default_with_oids": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/default_with_oids",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-45"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/effective_cache_size": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/effective_cache_size",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-46"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/enable_bitmapscan": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/enable_bitmapscan",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-47"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/enable_hashagg": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/enable_hashagg",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-48"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/enable_hashjoin": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/enable_hashjoin",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-49"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/enable_indexonlyscan": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/enable_indexonlyscan",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-50"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/enable_indexscan": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/enable_indexscan",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-51"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/enable_material": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/enable_material",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-52"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/enable_mergejoin": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/enable_mergejoin",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-53"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/enable_nestloop": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/enable_nestloop",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-54"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/enable_seqscan": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/enable_seqscan",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-55"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/enable_sort": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/enable_sort",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-56"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/enable_tidscan": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/enable_tidscan",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-57"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/escape_string_warning": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/escape_string_warning",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-58"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/exit_on_error": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/exit_on_error",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-59"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/extra_float_digits": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/extra_float_digits",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-60"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/force_parallel_mode": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/force_parallel_mode",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-61"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/from_collapse_limit": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/from_collapse_limit",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-62"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/geqo": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/geqo",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-63"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/geqo_effort": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/geqo_effort",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-64"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/geqo_generations": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/geqo_generations",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-65"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/geqo_pool_size": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/geqo_pool_size",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-66"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/geqo_seed": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/geqo_seed",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-67"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/geqo_selection_bias": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/geqo_selection_bias",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-68"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/geqo_threshold": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/geqo_threshold",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-69"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/gin_fuzzy_search_limit": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/gin_fuzzy_search_limit",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-70"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/gin_pending_list_limit": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/gin_pending_list_limit",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-71"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/hot_standby_feedback": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/hot_standby_feedback",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-72"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/idle_in_transaction_session_timeout": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/idle_in_transaction_session_timeout",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-73"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/intervalstyle": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/intervalstyle",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-74"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/join_collapse_limit": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/join_collapse_limit",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-75"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/lc_monetary": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/lc_monetary",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-76"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/lc_numeric": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/lc_numeric",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-77"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/lo_compat_privileges": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/lo_compat_privileges",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-78"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/lock_timeout": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/lock_timeout",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-79"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/log_autovacuum_min_duration": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/log_autovacuum_min_duration",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-80"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/log_checkpoints": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/log_checkpoints",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-81"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/log_connections": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/log_connections",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-82"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/log_disconnections": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/log_disconnections",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-83"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/log_duration": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/log_duration",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-84"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/log_error_verbosity": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/log_error_verbosity",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-85"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/log_line_prefix": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/log_line_prefix",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-86"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/log_lock_waits": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/log_lock_waits",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-87"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/log_min_duration_statement": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/log_min_duration_statement",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-88"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/log_min_error_statement": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/log_min_error_statement",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-89"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/log_min_messages": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/log_min_messages",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-90"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/log_replication_commands": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/log_replication_commands",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-91"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/log_retention_days": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/log_retention_days",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-92"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/log_statement": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/log_statement",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-93"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/log_statement_stats": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/log_statement_stats",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-94"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/log_temp_files": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/log_temp_files",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-95"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/logging_collector": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/logging_collector",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-96"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/maintenance_work_mem": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/maintenance_work_mem",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-97"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/max_locks_per_transaction": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/max_locks_per_transaction",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-98"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/max_parallel_workers_per_gather": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/max_parallel_workers_per_gather",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-99"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/max_prepared_transactions": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/max_prepared_transactions",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-100"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/max_replication_slots": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/max_replication_slots",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-101"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/max_standby_archive_delay": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/max_standby_archive_delay",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-102"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/max_standby_streaming_delay": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/max_standby_streaming_delay",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-103"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/max_wal_senders": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/max_wal_senders",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-104"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/max_wal_size": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/max_wal_size",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-105"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/min_parallel_relation_size": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/min_parallel_relation_size",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-106"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/min_wal_size": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/min_wal_size",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-107"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/old_snapshot_threshold": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/old_snapshot_threshold",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-108"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/operator_precedence_warning": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/operator_precedence_warning",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-109"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/parallel_setup_cost": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/parallel_setup_cost",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-110"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/parallel_tuple_cost": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/parallel_tuple_cost",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-111"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/pg_qs.interval_length_minutes": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/pg_qs.interval_length_minutes",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-112"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/pg_qs.max_query_text_length": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/pg_qs.max_query_text_length",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-113"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/pg_qs.query_capture_mode": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/pg_qs.query_capture_mode",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-114"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/pg_qs.replace_parameter_placeholders": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/pg_qs.replace_parameter_placeholders",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-115"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/pg_qs.retention_period_in_days": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/pg_qs.retention_period_in_days",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-116"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/pg_qs.track_utility": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/pg_qs.track_utility",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-117"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/pg_stat_statements.max": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/pg_stat_statements.max",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-118"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/pg_stat_statements.save": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/pg_stat_statements.save",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-119"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/pg_stat_statements.track": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/pg_stat_statements.track",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-120"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/pg_stat_statements.track_utility": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/pg_stat_statements.track_utility",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-121"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/pgms_wait_sampling.history_period": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/pgms_wait_sampling.history_period",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-122"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/pgms_wait_sampling.query_capture_mode": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/pgms_wait_sampling.query_capture_mode",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-123"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/postgis.gdal_enabled_drivers": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/postgis.gdal_enabled_drivers",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-124"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/quote_all_identifiers": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/quote_all_identifiers",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-125"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/random_page_cost": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/random_page_cost",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-126"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/replacement_sort_tuples": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/replacement_sort_tuples",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-127"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/row_security": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/row_security",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-128"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/search_path": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/search_path",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-129"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/seq_page_cost": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/seq_page_cost",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-130"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/session_replication_role": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/session_replication_role",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-131"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/shared_preload_libraries": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/shared_preload_libraries",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-132"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/sql_inheritance": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/sql_inheritance",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-133"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/statement_timeout": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/statement_timeout",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-134"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/synchronize_seqscans": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/synchronize_seqscans",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-135"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/synchronous_commit": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/synchronous_commit",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-136"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/tcp_keepalives_count": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/tcp_keepalives_count",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-137"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/tcp_keepalives_idle": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/tcp_keepalives_idle",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-138"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/tcp_keepalives_interval": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/tcp_keepalives_interval",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-139"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/temp_buffers": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/temp_buffers",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-140"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/timezone": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/timezone",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-141"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/track_activities": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/track_activities",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-142"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/track_activity_query_size": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/track_activity_query_size",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-143"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/track_commit_timestamp": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/track_commit_timestamp",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-144"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/track_counts": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/track_counts",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-145"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/track_functions": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/track_functions",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-146"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/track_io_timing": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/track_io_timing",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-147"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/transform_null_equals": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/transform_null_equals",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-148"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/vacuum_cost_delay": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/vacuum_cost_delay",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-149"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/vacuum_cost_limit": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/vacuum_cost_limit",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-150"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/vacuum_cost_page_dirty": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/vacuum_cost_page_dirty",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-151"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/vacuum_cost_page_hit": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/vacuum_cost_page_hit",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-152"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/vacuum_cost_page_miss": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/vacuum_cost_page_miss",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-153"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/vacuum_defer_cleanup_age": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/vacuum_defer_cleanup_age",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-154"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/vacuum_freeze_min_age": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/vacuum_freeze_min_age",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-155"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/vacuum_freeze_table_age": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/vacuum_freeze_table_age",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-156"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/vacuum_multixact_freeze_min_age": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/vacuum_multixact_freeze_min_age",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-157"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/vacuum_multixact_freeze_table_age": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/vacuum_multixact_freeze_table_age",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-158"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/wal_buffers": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/wal_buffers",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-159"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/wal_receiver_status_interval": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/wal_receiver_status_interval",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-160"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/wal_writer_delay": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/wal_writer_delay",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-161"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/wal_writer_flush_after": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/wal_writer_flush_after",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-162"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/work_mem": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/work_mem",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-163"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/xmlbinary": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/xmlbinary",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-164"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/xmloption": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/configurations/xmloption",
+		"resource_type": "azurerm_postgresql_configuration",
+		"resource_name": "res-165"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/databases/airflowdb": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/databases/airflowdb",
+		"resource_type": "azurerm_postgresql_database",
+		"resource_name": "res-166"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/databases/azure_maintenance": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/databases/azure_maintenance",
+		"resource_type": "azurerm_postgresql_database",
+		"resource_name": "res-167"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/databases/azure_sys": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/databases/azure_sys",
+		"resource_type": "azurerm_postgresql_database",
+		"resource_name": "res-168"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/databases/postgres": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/databases/postgres",
+		"resource_type": "azurerm_postgresql_database",
+		"resource_name": "res-169"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/firewallRules/airflow-qe232qydwkol4pgserverfirewall": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.DBforPostgreSQL/servers/airflow-qe232qydwkol4pgserver/firewallRules/airflow-qe232qydwkol4pgserverfirewall",
+		"resource_type": "azurerm_postgresql_firewall_rule",
+		"resource_name": "res-170"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.Web/serverFarms/airflow-qe232qydwkol4serviceplan": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.Web/serverfarms/airflow-qe232qydwkol4serviceplan",
+		"resource_type": "azurerm_service_plan",
+		"resource_name": "res-172"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.Web/sites/airflow-qe232qydwkol4": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.Web/sites/airflow-qe232qydwkol4",
+		"resource_type": "azurerm_linux_web_app",
+		"resource_name": "res-173"
+	},
+	"/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.Web/sites/airflow-qe232qydwkol4/hostNameBindings/airflow-qe232qydwkol4.azurewebsites.net": {
+		"resource_id": "/subscriptions/c60516fb-b6f2-454c-9b7b-83fec7efa4c7/resourceGroups/rg-airflowpoc-eastus-yankee/providers/Microsoft.Web/sites/airflow-qe232qydwkol4/hostNameBindings/airflow-qe232qydwkol4.azurewebsites.net",
+		"resource_type": "azurerm_app_service_custom_hostname_binding",
+		"resource_name": "res-177"
+	}
+}
