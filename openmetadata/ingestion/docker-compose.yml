@@ -1,0 +1,13 @@
+services:
+  ometa:
+    image: ometa-ingest-salutem-uat
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      - OMETA_DNS=${OMETA_DEV_DNS}
+      - OMETA_TOKEN=${OMETA_DEV_TOKEN}
+      - DB_NAME=${SALUTEM_UAT_GEOREPLICA_DATABASE}
+      - DB_HOSTPORT=${SALUTEM_UAT_GEOREPLICA_HOST}:${SALUTEM_UAT_GEOREPLICA_PORT}
+      - DB_USERNAME=${SALUTEM_UAT_GEOREPLICA_USERNAME}
+      - DB_PASSWORD=${SALUTEM_UAT_GEOREPLICA_PASSWORD}
