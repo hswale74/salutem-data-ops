@@ -27,10 +27,65 @@ resource "azurerm_network_interface" "my_terraform_nic" {
   }
 }
 
+# Create Network Security Group and rule
+resource "azurerm_network_security_group" "my_terraform_nsg" {
+  name                = "nsg-${local.resource_tag}"
+  location            = azurerm_resource_group.rg.location
+  resource_group_name = azurerm_resource_group.rg.name
+
+  security_rule {
+    name                       = "ometa-ingress-8080-mehak"
+    priority                   = 1000
+    direction                  = "Inbound"
+    access                     = "Allow"
+    protocol                   = "*"
+    source_port_range          = "*"
+    destination_port_range    = "8080"
+    source_address_prefix      = "98.220.219.25"
+    destination_address_prefix = "*"
+  }
+
+  security_rule {
+    name                       = "ometa-ingress-8585-mehak"
+    priority                   = 1010
+    direction                  = "Inbound"
+    access                     = "Allow"
+    protocol                   = "*"
+    source_port_range          = "*"
+    destination_port_range     = "8585"
+    source_address_prefix      = "98.220.219.25"
+    destination_address_prefix = "*"
+  }
+
+    security_rule {
+    name                       = "ometa-ingress-8080-haz"
+    priority                   = 1020
+    direction                  = "Inbound"
+    access                     = "Allow"
+    protocol                   = "*"
+    source_port_range          = "*"
+    destination_port_range    = "8080"
+    source_address_prefix      = "207.229.172.100"
+    destination_address_prefix = "*"
+  }
+
+  security_rule {
+    name                       = "ometa-ingress-8585-haz"
+    priority                   = 1030
+    direction                  = "Inbound"
+    access                     = "Allow"
+    protocol                   = "*"
+    source_port_range          = "*"
+    destination_port_range     = "8585"
+    source_address_prefix      = "207.229.172.100"
+    destination_address_prefix = "*"
+  }
+}
+
 # Connect the security group to the network interface
 resource "azurerm_network_interface_security_group_association" "example" {
   network_interface_id      = azurerm_network_interface.my_terraform_nic.id
-  network_security_group_id = data.azurerm_network_security_group.salutem-nsg.id
+  network_security_group_id = azurerm_network_security_group.my_terraform_nsg.id
 }
 
 # Create storage account for boot diagnostics
