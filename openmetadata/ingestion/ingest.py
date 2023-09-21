@@ -2,6 +2,8 @@
 Script to configure a new database service and its ingestion
 """
 ############Ometa Client###########
+import sys 
+sys.path.append("/Users/hasnatswaleheen/clones/OpenMetadata/ingestion/src/")
 
 import os
 import logging
