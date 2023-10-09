@@ -6,7 +6,7 @@ services:
       dockerfile: Dockerfile
     environment:
       - ENVIRONMENT=development
-      - OMETA_DNS=http://ometapoc.eastus.cloudapp.azure.com
+      - OMETA_DNS=localhost
       - OMETA_TOKEN=${OMETA_DEV_TOKEN}
     ports:
       - "5000:5000"

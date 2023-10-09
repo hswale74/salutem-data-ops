@@ -196,11 +196,15 @@ class OpenMetadata(
         it is found inside generated
         """
 
-        for key, value in MODULE_PATH.items():
-            if key in entity.__name__.lower():
-                return value
+        # for key, value in MODULE_PATH.items():
+        #     if key in entity.__name__.lower():
+        #         return value
 
-        return self.data_path
+        # return self.data_path
+        print("foo")
+        print(entity.__module__.split("."))
+        print("foo")
+        return entity.__module__.split(".")[-2]
 
     def get_create_entity_type(self, entity: Type[T]) -> Type[C]:
         """
