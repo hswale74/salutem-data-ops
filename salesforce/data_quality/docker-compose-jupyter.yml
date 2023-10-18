@@ -1,0 +1,17 @@
+services:
+  sf-notebook:
+    image: sf-gx-notebook
+    build: 
+      context: .
+      dockerfile: Dockerfile-jupyter
+    environment:
+      - SF_DNS=${SF_DNS_MOOSE}
+      - SF_USERNAME=${SF_USERNAME_MOOSE}
+      - SF_PASSWORD=${SF_PASSWORD_MOOSE}
+      - SF_TOKEN=${SF_TOKEN_MOOSE}
+    ports: 
+    - 8888:8888
+    volumes:
+      - /Users/hasnatswaleheen/clones/salutem-data-ops/salesforce/data_quality/data:/home/jovyan/data
+      - /Users/hasnatswaleheen/clones/salutem-data-ops/salesforce/data_quality/notebooks:/home/jovyan/notebooks
+      - /Users/hasnatswaleheen/clones/salutem-data-ops/salesforce/data_quality/gx_suites:/home/jovyan/gx_suites

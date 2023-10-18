@@ -1,0 +1,184 @@
+{
+  "data_asset_type": null,
+  "expectation_suite_name": "Property__c",
+  "expectations": [
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "Id"
+      },
+      "meta": {
+        "notes": {
+          "content": "Some clever comment about this expectation. **Markdown** `Supported`",
+          "format": "markdown"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "OwnerId"
+      },
+      "meta": {
+        "notes": {
+          "content": "Some clever comment about this expectation. **Markdown** `Supported`",
+          "format": "markdown"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "IsDeleted"
+      },
+      "meta": {
+        "notes": {
+          "content": "Some clever comment about this expectation. **Markdown** `Supported`",
+          "format": "markdown"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "CreatedDate"
+      },
+      "meta": {
+        "notes": {
+          "content": "Some clever comment about this expectation. **Markdown** `Supported`",
+          "format": "markdown"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "CreatedById"
+      },
+      "meta": {
+        "notes": {
+          "content": "Some clever comment about this expectation. **Markdown** `Supported`",
+          "format": "markdown"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "LastModifiedDate"
+      },
+      "meta": {
+        "notes": {
+          "content": "Some clever comment about this expectation. **Markdown** `Supported`",
+          "format": "markdown"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "LastModifiedById"
+      },
+      "meta": {
+        "notes": {
+          "content": "Some clever comment about this expectation. **Markdown** `Supported`",
+          "format": "markdown"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "SystemModstamp"
+      },
+      "meta": {
+        "notes": {
+          "content": "Some clever comment about this expectation. **Markdown** `Supported`",
+          "format": "markdown"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "Price__c"
+      },
+      "meta": {
+        "notes": {
+          "content": "Some clever comment about this expectation. **Markdown** `Supported`",
+          "format": "markdown"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "Agent_ID__c"
+      },
+      "meta": {
+        "notes": {
+          "content": "Some clever comment about this expectation. **Markdown** `Supported`",
+          "format": "markdown"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "Street_Address__c"
+      },
+      "meta": {
+        "notes": {
+          "content": "Some clever comment about this expectation. **Markdown** `Supported`",
+          "format": "markdown"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_set",
+      "kwargs": {
+        "column": "Current_Status__c",
+        "value_set": [
+          "Listed",
+          "Offered",
+          "Pending Sale",
+          "Sold"
+        ]
+      },
+      "meta": {
+        "notes": {
+          "content": "Some clever comment about this expectation. **Markdown** `Supported`",
+          "format": "markdown"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "Unique_Street_Adddress__c"
+      },
+      "meta": {
+        "notes": {
+          "content": "Some clever comment about this expectation. **Markdown** `Supported`",
+          "format": "markdown"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_unique",
+      "kwargs": {
+        "column": "Unique_Street_Adddress__c"
+      },
+      "meta": {
+        "notes": {
+          "content": "Some clever comment about this expectation. **Markdown** `Supported`",
+          "format": "markdown"
+        }
+      }
+    }
+  ],
+  "ge_cloud_id": null,
+  "meta": {
+    "great_expectations_version": "0.17.22"
+  }
+}

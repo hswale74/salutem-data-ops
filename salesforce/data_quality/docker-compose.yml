@@ -1,0 +1,14 @@
+services:
+  ometa:
+    image: sf-custom-properties
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      - SF_DNS=${SF_DNS_MOOSE}
+      - SF_USERNAME=${SF_USERNAME_MOOSE}
+      - SF_PASSWORD=${SF_PASSWORD_MOOSE}
+      - SF_TOKEN=${SF_TOKEN_MOOSE}
+  
+volumes:
+    - ./data:/data
