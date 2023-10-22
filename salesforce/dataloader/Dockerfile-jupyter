@@ -1,0 +1,14 @@
+FROM jupyter/base-notebook:python-3.10
+
+ARG APP_HOME=/home/jovyan/notebooks
+ARG DATA_DIR=/home/jovyan/data
+
+RUN mkdir $APP_HOME
+RUN mkdir $DATA_DIR
+
+COPY ./requirements.txt /${APP_HOME}/requirements.txt 
+
+RUN pip install -r /${APP_HOME}/requirements.txt
+
+WORKDIR ${APP_HOME}
+

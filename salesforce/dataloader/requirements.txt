@@ -1,0 +1,6 @@
+requests
+simple-salesforce
+pandas
+salesforce-bulk
+faker
+beatbox

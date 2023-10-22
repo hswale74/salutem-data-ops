@@ -1,0 +1,16 @@
+services:
+  sf-notebook:
+    image: sf-dataloader-notebook
+    build: 
+      context: .
+      dockerfile: Dockerfile-jupyter
+    environment:
+      - SF_DNS=${SF_DNS_KOALA}
+      - SF_USERNAME=${SF_USERNAME_KOALA}
+      - SF_PASSWORD=${SF_PASSWORD_KOALA}
+      - SF_TOKEN=${SF_TOKEN_KOALA}
+    ports: 
+    - 8888:8888
+    volumes:
+      - /Users/hasnatswaleheen/clones/salutem-data-ops/salesforce/dataloader/data:/home/jovyan/data
+      - /Users/hasnatswaleheen/clones/salutem-data-ops/salesforce/dataloader/notebooks:/home/jovyan/notebooks
