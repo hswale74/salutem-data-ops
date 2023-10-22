@@ -2,3 +2,6 @@ requests
 simple-salesforce
 pandas
 great-expectations
+azure-storage-blob
+azure-identity
+azure-keyvault-secrets
