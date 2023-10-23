@@ -3,4 +3,4 @@ simple-salesforce
 pandas
 salesforce-bulk
 faker
-beatbox
+petname==2.2

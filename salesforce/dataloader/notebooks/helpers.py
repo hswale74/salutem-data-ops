@@ -5,6 +5,7 @@ from salesforce_bulk import SalesforceBulk, CsvDictsAdapter
 from simple_salesforce import Salesforce
 import pandas as pd
 import os
+import petname
 
 class LeadFactory(object):
     STATUSES = [
@@ -15,16 +16,19 @@ class LeadFactory(object):
     ]
     def __init__(self, faker=faker.Faker()):
         self.faker = faker
+        self.pet_name = petname.generate(1)
 
     def generate_record(self):
         chosen_status = random.choice(LeadFactory.STATUSES)
         data = {
+            "FirstName": self.pet_name,
             "LastName": self.faker.last_name(),
             "Company": self.faker.company(),
             "Status": chosen_status, 
             "IsConverted": chosen_status == 'Closed - Converted'
         }
         return data
+        
 
 
 class BulkUploader(object):
@@ -41,4 +45,4 @@ class BulkUploader(object):
             batch_ids.append(batch_id)
 
 
-        return batch_ids
+        return job_id, batch_ids
