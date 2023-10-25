@@ -12,5 +12,5 @@ sf_client = Salesforce(
     password=os.getenv("SF_PASSWORD"),
     security_token=os.getenv("SF_TOKEN")
 )
-a
+
 logging.info(sf_client.describe())
