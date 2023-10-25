@@ -5,6 +5,13 @@ import time
 import os
 from datetime import datetime
 import json
+from typing import List, Tuple
+
+from salesforce_bulk import SalesforceBulk, CsvDictsAdapter
+import pandas as pd
+
+from domain import SfPasswordAuth
+from staging_db import FileSystemStagingDatabase
 
 
 class SalesforceBulk2:
@@ -314,6 +321,66 @@ class SalesforceBulk2:
 
                 self.store_results(object_name, operation_name, environment) # Storing success and failed records in a csv file
 #-----------------------------------------------------------------------------------------------------
+
+class SfBulk:
+
+    def __init__(self, auth: SfPasswordAuth, staging_db: FileSystemStagingDatabase):
+        self.client = SalesforceBulk(**auth)
+        self.staging_db = staging_db
+
+    def upload(self, records: List[dict], object_name: str) -> Tuple[int, int]:
+        job_id = self.client.create_insert_job(object_name, contentType='CSV')
+        csv_iter = CsvDictsAdapter(iter(records))
+        batch_id = self.client.post_batch(job_id, csv_iter)
+        return job_id, batch_id
+
+    def await_completion(self, job_id: str, batch_id: str) -> None:
+        self.client.wait_for_batch(job_id, batch_id)
+
+    def cleanup(self, job_id: str, batch_id: str) -> None:
+        batch_results = pd.DataFrame.from_records(
+            self._get_batch_results(batch_id=batch_id)
+            )
+        batch_results.columns = ['id', 'success', 'created', 'error']
+        self._upload(
+            df=batch_results[batch_results.success == 'true'],
+            job_id=job_id,
+            batch_id=batch_id
+        )
+        self._upload(
+            df=batch_results[batch_results.success == 'false'],
+            job_id=job_id,
+            batch_id=batch_id
+        )
+
+
+        self._upload_failures(job_id=job_id, batch_id=batch_id)
+        self._upload_success(job_id=job_id, batch_id=batch_id)
+        
+    def _get_batch_results(self, batch_id: str) -> pd.DataFrame:
+        df = pd.DataFrame.from_records(self.client.get_batch_results(batch_id))
+        df.columns = ['id', 'success', 'created', 'error']
+        return df
+        self.batch_results = df
+        self.results = {
+            'success_count': self.batch_results.success.value_counts().loc['true'][0],
+            'failure_count': self.batch_results.success.value_counts().loc['false'][0],
+            'success_pct': self.batch_results.success.value_counts(normalize=True).loc['true'][0],
+            'error_set': set(self.batch_results.error.unique)
+        }
+
+    def _upload(self, batch_results: pd.DataFrame, job_id: str, batch_id: str) -> None:
+        self.staging_db.overwrite(
+            df=batch_results[batch_results.success == 'true'],
+            table_name=f"{job_id}_{batch_id}_success"
+        )
+
+    def _upload_failures(self, job_id: str, batch_id: str) -> None:
+        self.staging_db.overwrite(
+            df=self.batch_results[self.batch_results.success == 'false'],
+            table_name=f"{job_id}_{batch_id}_failure"
+        )
+        
 
 # -----------------------------------------------------------------------------------------------------
 def main():

@@ -81,7 +81,7 @@ class AzureBlobStorageStagingDatabase(FileSystemStagingDatabase):
         self.directory_name = directory_name
         self.encoding = encoding
 
-    def _get_fqn(self, table_name: str, parititon_name: str):
+    def _get_fqn(self, table_name: str, parititon_name: str) -> str:
         return os.path.join(table_name, parititon_name, "data.csv")
 
     def _read(self, table_name: str, partition_name: str = "default") -> pd.DataFrame:
