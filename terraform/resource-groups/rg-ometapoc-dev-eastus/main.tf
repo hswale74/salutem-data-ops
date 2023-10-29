@@ -80,6 +80,32 @@ resource "azurerm_network_security_group" "my_terraform_nsg" {
     source_address_prefix      = "207.229.172.100"
     destination_address_prefix = "*"
   }
+
+    security_rule {
+    name                       = "ometa-ingress-22-haz"
+    priority                   = 1040
+    direction                  = "Inbound"
+    access                     = "Allow"
+    protocol                   = "*"
+    source_port_range          = "*"
+    destination_port_range     = "22"
+    source_address_prefix      = "207.229.172.100"
+    destination_address_prefix = "*"
+  }
+
+    security_rule {
+    name                       = "ometa-ingress-80-haz"
+    priority                   = 1050
+    direction                  = "Inbound"
+    access                     = "Allow"
+    protocol                   = "*"
+    source_port_range          = "*"
+    destination_port_range     = "80"
+    source_address_prefix      = "207.229.172.100"
+    destination_address_prefix = "*"
+  }
+
+
 }
 
 # Connect the security group to the network interface

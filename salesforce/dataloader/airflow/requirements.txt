@@ -1,2 +1,5 @@
 azure-storage-blob
+salesforce-bulk
 pandas
+faker
+petname

@@ -6,7 +6,7 @@ from azure.storage.blob import BlobServiceClient
 import pandas as pd
 
 
-class FileSystemStagingDatabase(ABC):
+class PandasStagingDatabase(ABC):
     def overwrite(
         self, df: pd.DataFrame, table_name: str, partition_name: str = "default"
     ):
@@ -46,7 +46,7 @@ class FileSystemStagingDatabase(ABC):
         )
 
 
-class LocalFileSystemStagingDatabase(FileSystemStagingDatabase):
+class LocalFileSystemStagingDatabase(PandasStagingDatabase):
     def __init__(self, directory: str, encoding: str = "utf-8"):
         self.directory = directory
         self.encoding = encoding
@@ -68,7 +68,7 @@ class LocalFileSystemStagingDatabase(FileSystemStagingDatabase):
         df.to_csv(fqn, encoding=self.encoding, index=False)
 
 
-class AzureBlobStorageStagingDatabase(FileSystemStagingDatabase):
+class AzureBlobStorageStagingDatabase(PandasStagingDatabase):
     def __init__(
         self,
         blob_service_client: BlobServiceClient,
