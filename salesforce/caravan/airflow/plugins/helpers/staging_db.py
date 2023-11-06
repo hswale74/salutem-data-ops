@@ -101,3 +101,18 @@ class AzureBlobStorageStagingDatabase(PandasStagingDatabase):
         )
 
         client.upload_blob(df.to_csv(index=False).encode(self.encoding), overwrite=True)
+
+
+class RulesEngineFactory
+
+    def __init__(self, context, )
+
+class Database
+
+    def __init__(self, storage_engine, execution_engine, rules_engine):
+        self.storage_engine = storage_engine
+        self.execution_engine = execution_engine
+        self.rules_engine.rules_engine
+
+    def read(self, table_name, partition_name):
+        self.rules_engine.run_checks(table_name)
